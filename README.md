@@ -5,13 +5,13 @@
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 Para ejecutar el proyecto correctamente es necesario:
 
 1. **Descargar el proyecto completo** desde el repositorio, incluyendo todas las carpetas, incluso si están vacías (como `graficas_...`).  
 2. **Descargar la base de datos de vulnerabilidades** desde la página oficial del NIST:  
-   👉 https://nvd.nist.gov/vuln/data-feeds  
+   https://nvd.nist.gov/vuln/data-feeds  
    El archivo debe estar en formato JSON (2.0) y debe guardarse en el directorio del proyecto con el nombre exacto:  
    **`nvd_data.json`**
 
@@ -21,17 +21,17 @@ Para ejecutar el proyecto correctamente es necesario:
    pip install -r requirements.txt
    ```
 
-   ⚠️ En sistemas macOS o Linux puede ser necesario usar `python3` en lugar de `python`.
+   OJO! En sistemas macOS o Linux puede ser necesario usar `python3` en lugar de `python`.
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 El repositorio incluye cuatro archivos Python principales, numerados para ejecutarse en orden. Cada uno representa una fase del proceso completo de análisis y clustering de activos vulnerables. También se incluyen varias carpetas donde se van guardando los resultados intermedios y gráficos.
 
 ---
 
-## 🧩 Archivos del Proyecto
+## Archivos del Proyecto
 
 ### `1º_cve_json_to_csv.py`
 
@@ -86,7 +86,7 @@ Los resultados se guardan en `graficas_analisis_previo_dataset/`. Es útil para 
 
 ---
 
-## ▶️ Ejecución del Proyecto
+## Ejecución del Proyecto
 
 1. Clonar o descargar el repositorio completo en un directorio local.
 2. Descargar el dataset de vulnerabilidades del NVD y colocarlo como `nvd_data.json`.
@@ -119,7 +119,7 @@ Los resultados se guardan en `graficas_analisis_previo_dataset/`. Es útil para 
 
 ---
 
-## 📂 Carpetas generadas
+## Carpetas generadas
 
 - `csv_generados/`: contiene archivos CSV intermedios con los datos procesados.
 - `graficas_analisis_previo_dataset/`: gráficas del análisis exploratorio (si se ejecuta el script correspondiente).
